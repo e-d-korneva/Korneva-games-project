@@ -1,8 +1,17 @@
 install:
 	uv sync
-VD-games:
-	uv run VD-games
+
 build:
 	uv build
+
 package-install:
-	uv tool install dist/*whl
+	uv tool install --force dist/*.whl
+
+VD-games:
+	uv run VD-games
+
+VD-even:
+	uv run VD-even
+
+lint:
+	uv run ruff check Korneva_games
