@@ -19,5 +19,8 @@ VD-calc:
 VD-gcd:
 	uv run VD-gcd
 
+VD-progression:
+	uv run VD-progression
+
 lint:
 	uv run ruff check Korneva_games

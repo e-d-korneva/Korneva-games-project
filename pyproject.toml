@@ -25,6 +25,7 @@ VD-games = "Korneva_games.scripts.VD_main:main"
 VD-even = "Korneva_games.scripts.VD_even:main"
 VD-calc  = "Korneva_games.scripts.VD_calc:main"
 VD-gcd   = "Korneva_games.scripts.VD_gcd:main"
+VD-progression = "Korneva_games.scripts.VD_progression:main"
 
 [tool.ruff]
 line-length = 88
