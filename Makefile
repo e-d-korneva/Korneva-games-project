@@ -16,5 +16,8 @@ VD-even:
 VD-calc:
 	uv run VD-calc
 
+VD-gcd:
+	uv run VD-gcd
+
 lint:
 	uv run ruff check Korneva_games
