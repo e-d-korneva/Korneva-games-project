@@ -13,5 +13,8 @@ VD-games:
 VD-even:
 	uv run VD-even
 
+VD-calc:
+	uv run VD-calc
+
 lint:
 	uv run ruff check Korneva_games
